@@ -33,6 +33,7 @@ public interface CrudRepository<T, ID> extends Repository<T, ID> {
 * mapped for us
 * easy learning curve: no need to write a native query
 * easy to swap implementations
+
 #### PagingAndSortingRepository
 ```
 public interface PagingAndSortingRepository<T, ID> extends CrudRepository<T, ID> {
@@ -60,4 +61,8 @@ public interface PagingAndSortingRepository<T, ID> extends CrudRepository<T, ID>
 #### Custom Repository implementation
 * Create an interface and its implementation
 * Entity repository implements the interface
+
+### Module 4
+#### @Transactional
+* Spring Core, not just Spring Data
 
