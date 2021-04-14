@@ -57,5 +57,7 @@ public interface PagingAndSortingRepository<T, ID> extends CrudRepository<T, ID>
   - remove javax.persistence annotation and change all id fields to String
 * Change Repository ID type to String
 * Change from @DataJpaTest to @DataMongoTest
-
+#### Custom Repository implementation
+* Create an interface and its implementation
+* Entity repository implements the interface
 
