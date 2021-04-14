@@ -1,7 +1,7 @@
 # spring-data-overview-pluralsight
 Pluralsight course material for Spring Data Overview
 
-### Module 1
+### Module 2
 * Create a data testing class
   - Annotate with @RunWith(SpringRunner.class) and @DataJpaTest
   - @DataJpaTest call for less resource than @SpringBootTest
